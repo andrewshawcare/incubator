@@ -1,15 +1,18 @@
 #!/bin/sh
 set -e
 
-for test_path in "$(find -mindepth 2 -name test.sh)"; do
-  [ -x "${test_path}" ] || continue
-
+code=0
+for test_path in $(find -mindepth 2 -name test.sh); do
   result=''
-  if $(sh "${test_path}"); then
-    result="✓"
+
+  if $(sh -c "${test_path}"); then
+    result='✓'
   else
-    result="✗"
+    code=$?
+    result='✗'
   fi
 
   echo "${result} ${test_path}"
 done
+
+exit $code
