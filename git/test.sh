@@ -1,2 +1,2 @@
 #!/bin/sh
-exec test $(which git)
+test $(which git)
