@@ -1,2 +1,2 @@
 #!/bin/sh
-test $(which docker)
+test "$(which docker)"
