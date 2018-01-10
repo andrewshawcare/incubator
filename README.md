@@ -1,2 +1,2 @@
-# umvelinqangi
-The one who came first (and installed your Ubuntu packages, files, and services for you).
+# incubator
+Linux provisioning scripts that producing fully-formed penguins at a startling speed.
