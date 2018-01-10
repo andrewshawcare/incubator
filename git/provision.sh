@@ -1,2 +1,3 @@
 #!/bin/sh
-sudo apt install git
+git config --global user.email 'andrewshawcare@gmail.com'
+git config --global user.name 'Andrew Shaw Care'
