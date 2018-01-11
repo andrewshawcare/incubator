@@ -1,2 +1,2 @@
 # incubator
-Linux provisioning scripts that producing fully-formed penguins at a startling speed.
+Linux provisioning scripts that produce fully-formed penguins at a startling speed.
